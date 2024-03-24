@@ -2,21 +2,12 @@
 
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.
 
-<<<<<<< HEAD
-The team's project is comprised of 2 application.
-
-1. A frontend UI built written in Typescript, using the React framework
-2. A backend API written in Python using the Flask framework.
-
-In the `starter` folder, you'll find 2 folders, one named `frontend` and one named `backend`, where each application's source code is maintained. Your job is to use the team's [existing documentation](#frontend-development-notes) and create CI/CD pipelines to meet the teams' needs.
-=======
 The team's project is comprised of 2 applications.
 
 1. A frontend UI written in Typescript, using the React framework
 2. A backend API written in Python using the Flask framework.
 
 You'll find 2 folders, one named `frontend` and one named `backend`, where each application's source code is maintained. Your job is to use the team's [existing documentation](#frontend-development-notes) and create CI/CD pipelines to meet the teams' needs.
->>>>>>> 411e2acaa66872dd7bc3c728a5b689aa622484ba
 
 ## Deliverables
 
@@ -58,10 +49,6 @@ You'll find 2 folders, one named `frontend` and one named `backend`, where each 
       1. The manifest should deploy the newly created tagged image
       2. The tag applied to the image should be the git SHA of the commit that triggered the build
 
-<<<<<<< HEAD
-**⚠️ NOTE**
-Once you begin work on Continuous Deployment, you'll need to first setup the AWS and Kubernetes environment. Follow the [instructions below](#setting-up-continuous-deployment-environment)  instructions only when you're ready to start testing your deployments.
-=======
 
 **⚠️ NOTE**
 Once you begin work on Continuous Deployment, you'll need to first setup the AWS and Kubernetes environment. Follow [these instructions ](#setting-up-continuous-deployment-environment) only when you're ready to start testing your deployments.
@@ -123,7 +110,6 @@ gh repo create udacity-build-cicd-project --source=. --public --push
 
 As you work on the project, you won't need to create or initialize the repo again. You'll just need to make changes to your workflows in the `.github/workflows` folder, and perform `git add .` `git commit` and `git push` commands to make the files available in your repository and view your actions in the Github Actions interface.
 
->>>>>>> 411e2acaa66872dd7bc3c728a5b689aa622484ba
 
 ## Setting up Continuous Deployment environment
 
